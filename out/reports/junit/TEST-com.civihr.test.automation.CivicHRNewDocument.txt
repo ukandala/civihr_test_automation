@@ -1,0 +1,110 @@
+Testsuite: com.civihr.test.automation.CivicHRNewDocument
+Tests run: 1, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 86.668 sec
+------------- Standard Error -----------------
+1471150816937	Marionette	INFO	Listening on port 62199
+1471150819313	Marionette	INFO	startBrowser dd635d9e-9e28-4db8-9885-749299aad040
+1471150819323	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150819631	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150819680	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834420	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834433	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834449	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834458	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834523	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834532	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834554	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834561	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834609	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150834616	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150845077	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150857400	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150857408	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860451	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860460	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860468	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860475	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860484	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860493	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860547	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860558	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860586	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150860594	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150862843	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150862849	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150862943	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150862972	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865030	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865037	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865094	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865114	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865130	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150865136	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867218	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867224	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867313	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867408	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867486	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867511	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867525	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150867531	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+1471150869607	Marionette	INFO	sendAsync dd635d9e-9e28-4db8-9885-749299aad040
+[Child 8648] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2046
+------------- ---------------- ---------------
+
+Testcase: testCivicHRNewDocument took 86.583 sec
+	Caused an ERROR
+Unable to locate element: (//div[@id='ui-select-choices-row-37-']/a/small)[2] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'DESKTOP-H3K5A4R', ip: '192.168.2.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: dd635d9e-9e28-4db8-9885-749299aad040
+*** Element info: {Using=xpath, value=(//div[@id='ui-select-choices-row-37-']/a/small)[2]}
+org.openqa.selenium.NoSuchElementException: Unable to locate element: (//div[@id='ui-select-choices-row-37-']/a/small)[2] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'DESKTOP-H3K5A4R', ip: '192.168.2.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: dd635d9e-9e28-4db8-9885-749299aad040
+*** Element info: {Using=xpath, value=(//div[@id='ui-select-choices-row-37-']/a/small)[2]}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:506)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at com.civihr.test.automation.CivicHRNewDocument.testCivicHRNewDocument(Unknown Source)
+
+	Caused an ERROR
+Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'DESKTOP-H3K5A4R', ip: '192.168.2.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: dd635d9e-9e28-4db8-9885-749299aad040
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: '2aa21c1', time: '2016-08-02 14:59:43 -0700'
+System info: host: 'DESKTOP-H3K5A4R', ip: '192.168.2.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: dd635d9e-9e28-4db8-9885-749299aad040
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:706)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:531)
+	at com.civihr.test.automation.CivicHRNewDocument.tearDown(Unknown Source)
+Caused by: java.lang.IllegalStateException: UnixUtils may not be used on Windows
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:188)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.getPID(UnixProcess.java:222)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$300(UnixProcess.java:201)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:132)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:649)
+

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="4" failures="0" hostname="DESKTOP-H3K5A4R" name="com.civihr.test.automation.AddNewDocTest" skipped="0" tests="4" time="118.993" timestamp="2016-08-15T15:57:48">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\libs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\jdk1.8\jre\lib\resources.jar;C:\jdk1.8\jre\lib\rt.jar;C:\jdk1.8\jre\lib\sunrsasign.jar;C:\jdk1.8\jre\lib\jsse.jar;C:\jdk1.8\jre\lib\jce.jar;C:\jdk1.8\jre\lib\charsets.jar;C:\jdk1.8\jre\lib\jfr.jar;C:\jdk1.8\jre\classes" />
+    <property name="ant.file.type.CiviHR-Test-Automation" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_92-b14" />
+    <property name="user.name" value="adityayadav76" />
+    <property name="build.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\build" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\jdk1.8\jre\bin" />
+    <property name="ant.project.default-target" value="Main" />
+    <property name="ant.project.name" value="CiviHR-Test-Automation" />
+    <property name="java.version" value="1.8.0_92" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="junit.out" value="out/reports/junit" />
+    <property name="java.endorsed.dirs" value="C:\jdk1.8\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\jdk1.8\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="G:\Usha\workspace\CiviHR-Test-Automation\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.92-b14" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+    <property name="user.home" value="C:\Users\adityayadav76" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:/jdk1.8/bin/../jre/bin/server;c:/jdk1.8/bin/../jre/bin;c:/jdk1.8/bin/../jre/lib/amd64;c:\jdk1.8\bin;C:\apache-ant-1.9.7\bin;C:\apache-maven-3.3.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Skype\Phone\;J:\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.civihr.test.automation.AddNewDocTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,G:\Usha\workspace\CiviHR-Test-Automation\out\reports\junit\TEST-com.civihr.test.automation.AddNewDocTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,G:\Usha\workspace\CiviHR-Test-Automation\out\reports\junit\TEST-com.civihr.test.automation.AddNewDocTest.xml crashfile=G:\Usha\workspace\CiviHR-Test-Automation\junitvmwatcher2438988065911176745.properties propsfile=G:\Usha\workspace\CiviHR-Test-Automation\junit5637993571863489146.properties" />
+    <property name="java.class.path" value="G:\Usha\workspace\CiviHR-Test-Automation\build;G:\Usha\workspace\CiviHR-Test-Automation\libs\cglib-nodep-3.2.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\client-combined-3.0.0-beta2-nodeps.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-codec-1.10.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-exec-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-logging-1.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\diffutils-1.3.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\gson-2.3.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\guava-19.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\hamcrest-core-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\hamcrest-library-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpclient-4.5.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpcore-4.4.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpmime-4.5.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jline-2.12.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jna-4.1.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jna-platform-4.1.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\junit-4.12.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\netty-3.5.7.Final.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\partest-extras-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\phantomjsdriver-1.2.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\repl-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-compiler-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-library-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-parser-combinators_2.11-1.0.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-partest_2.11-1.0.9.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-reflect-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-xml_2.11-1.0.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scaladoc-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\test-interface-1.0.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="ant.file.CiviHR-Test-Automation" value="G:\Usha\workspace\CiviHR-Test-Automation\build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="java.io.tmpdir" value="C:\Users\ADITYA~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="G:\Usha\workspace\CiviHR-Test-Automation" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="G:\Usha\workspace\CiviHR-Test-Automation" />
+    <property name="haltonfailure" value="no" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="out" value="out" />
+    <property name="reports.out" value="out/reports" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\src" />
+    <property name="ant.project.invoked-targets" value="run-junit" />
+  </properties>
+  <testcase classname="com.civihr.test.automation.AddNewDocTest" name="step1_login" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.civihr.test.automation.Commons.goToUrl(Unknown Source)
+	at com.civihr.test.automation.AddNewDocTest.step1_login(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.civihr.test.automation.AddNewDocTest" name="step2_clickOnDocLink" time="30.429">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: .//a[@href=&apos;#/documents&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;&#xa;System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]&#xa;Session ID: 93819056-9a6b-44ac-8bb8-0efe7daa24c5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: .//a[@href=&apos;#/documents&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.civihr.test.automation.AddNewDocTest.step2_clickOnDocLink(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//a[@href=&apos;#/documents&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+*** Element info: {Using=xpath, value=.//a[@href=&apos;#/documents&apos;]}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:506)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:651)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+</error>
+  </testcase>
+  <testcase classname="com.civihr.test.automation.AddNewDocTest" name="step3_clickOnAddDocLink" time="30.111">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&apos;ct-dashboard&apos;]/div[1]/div/div[2]/div/a[1] (tried for 30 second(s) with 500 MILLISECONDS interval)&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;&#xa;System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]&#xa;Session ID: 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&apos;ct-dashboard&apos;]/div[1]/div/div[2]/div/a[1] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.civihr.test.automation.AddNewDocTest.step3_clickOnAddDocLink(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&apos;ct-dashboard&apos;]/div[1]/div/div[2]/div/a[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+*** Element info: {Using=xpath, value=//*[@id=&apos;ct-dashboard&apos;]/div[1]/div/div[2]/div/a[1]}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:506)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:651)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+</error>
+  </testcase>
+  <testcase classname="com.civihr.test.automation.AddNewDocTest" name="step4_enterDetailsSave" time="30.022">
+    <error message="Expected condition failed: waiting for element to be clickable: By.xpath: .//*[@id=&apos;civitasks&apos;]/div/div[1]/div/div/form/div[1]/div/div[1]/div/div/span/span[1] (tried for 30 second(s) with 500 MILLISECONDS interval)&#xa;Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;&#xa;System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]&#xa;Session ID: 7fb6b384-77f2-4dc8-bfa1-886942be4104" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: .//*[@id=&apos;civitasks&apos;]/div/div[1]/div/div/form/div[1]/div/div[1]/div/div/span/span[1] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 7fb6b384-77f2-4dc8-bfa1-886942be4104
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at com.civihr.test.automation.AddNewDocTest.step4_enterDetailsSave(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@id=&apos;civitasks&apos;]/div/div[1]/div/div/form/div[1]/div/div[1]/div/div/span/span[1] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 14:59:43 -0700&apos;
+System info: host: &apos;DESKTOP-H3K5A4R&apos;, ip: &apos;192.168.2.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20160726073904, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 7fb6b384-77f2-4dc8-bfa1-886942be4104
+*** Element info: {Using=xpath, value=.//*[@id=&apos;civitasks&apos;]/div/div[1]/div/div/form/div[1]/div/div[1]/div/div/span/span[1]}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:506)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:651)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1471276672740	Marionette	INFO	Listening on port 65215
+1471276677188	Marionette	INFO	startBrowser 212b4d19-a9cd-4ffa-b724-cc091ac52c60
+1471276677214	Marionette	INFO	sendAsync 212b4d19-a9cd-4ffa-b724-cc091ac52c60
+1471276678356	Marionette	INFO	sendAsync 212b4d19-a9cd-4ffa-b724-cc091ac52c60
+1471276683352	Marionette	INFO	Listening on port 65239
+1471276686713	Marionette	INFO	startBrowser 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276686724	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276687256	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276687312	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276688246	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276688754	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276689263	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276689772	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276690282	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276690790	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276691298	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276691805	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276692314	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276692825	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276693334	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276693840	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276694348	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276694969	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276695479	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276695987	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276696495	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276697003	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276697515	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276698022	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276698532	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276699043	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276699551	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276700060	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276700566	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276701072	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276701579	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276702085	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276702595	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276703101	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276703608	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276704115	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276704622	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276705282	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276705790	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276706306	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276706815	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276707324	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276707832	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276708339	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276708848	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276709357	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276709867	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276710379	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276710887	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276711394	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276711902	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276712413	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276712921	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276713431	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276713938	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276714448	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276714955	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276715465	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276715975	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276716481	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276716987	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276717493	Marionette	INFO	sendAsync 93819056-9a6b-44ac-8bb8-0efe7daa24c5
+1471276719718	Marionette	INFO	Listening on port 65445
+[Child 13424] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+[Child 13424] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 343
+1471276722186	Marionette	INFO	startBrowser 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276722196	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276722662	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276722986	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276723600	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276724108	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276724616	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276725125	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276725633	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276726142	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276726648	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276727154	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276727664	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276728170	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276728680	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276729186	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276729692	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276730199	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276730706	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276731215	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276731722	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276732228	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276732737	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276733245	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276733754	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276734263	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276734770	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276735280	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276735788	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276736297	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276736803	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276737309	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276737816	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276738323	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276738831	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276739336	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276739843	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276740349	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276740856	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276741363	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276741870	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276742377	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276742884	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276743390	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276743897	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276744404	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276744912	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276745421	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276745994	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276746503	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276747009	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276747516	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276748023	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276748531	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276749043	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276749550	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276750057	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276750564	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276751071	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276751581	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276752091	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276752598	Marionette	INFO	sendAsync 9618af5d-b0b1-4ff3-bf4f-e4f2b049af30
+1471276754750	Marionette	INFO	Listening on port 49250
+1471276756886	Marionette	INFO	startBrowser 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276756897	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276757326	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276757675	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276758259	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276758767	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276759274	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276759782	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276760292	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276760800	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276761307	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276761813	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276762322	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276762828	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276763336	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276763842	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276764347	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276764853	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276765360	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276765867	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276766374	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276766721	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1471276766889	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276767401	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276767908	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276768415	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276768922	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276769429	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276769939	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276770447	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276770955	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276771461	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276771967	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276772472	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276772978	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276773486	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276773991	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276774497	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276775003	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276775510	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276776017	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276776525	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276777033	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276777539	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276778047	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276778555	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276779062	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276779568	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276780074	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276780582	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276781092	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276781598	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276782106	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276782613	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276783121	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276783630	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276784139	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276784646	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276785152	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276785657	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276786163	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276786671	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+1471276787180	Marionette	INFO	sendAsync 7fb6b384-77f2-4dc8-bfa1-886942be4104
+]]></system-err>
+</testsuite>

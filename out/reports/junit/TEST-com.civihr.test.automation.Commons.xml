@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="DESKTOP-H3K5A4R" name="com.civihr.test.automation.Commons" skipped="0" tests="2" time="0.084" timestamp="2016-08-15T15:59:48">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\libs" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\jdk1.8\jre\lib\resources.jar;C:\jdk1.8\jre\lib\rt.jar;C:\jdk1.8\jre\lib\sunrsasign.jar;C:\jdk1.8\jre\lib\jsse.jar;C:\jdk1.8\jre\lib\jce.jar;C:\jdk1.8\jre\lib\charsets.jar;C:\jdk1.8\jre\lib\jfr.jar;C:\jdk1.8\jre\classes" />
+    <property name="ant.file.type.CiviHR-Test-Automation" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_92-b14" />
+    <property name="user.name" value="adityayadav76" />
+    <property name="build.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\build" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\jdk1.8\jre\bin" />
+    <property name="ant.project.default-target" value="Main" />
+    <property name="ant.project.name" value="CiviHR-Test-Automation" />
+    <property name="java.version" value="1.8.0_92" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="junit.out" value="out/reports/junit" />
+    <property name="java.endorsed.dirs" value="C:\jdk1.8\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\jdk1.8\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="G:\Usha\workspace\CiviHR-Test-Automation\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.92-b14" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+    <property name="user.home" value="C:\Users\adityayadav76" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\jdk1.8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:/jdk1.8/bin/../jre/bin/server;c:/jdk1.8/bin/../jre/bin;c:/jdk1.8/bin/../jre/lib/amd64;c:\jdk1.8\bin;C:\apache-ant-1.9.7\bin;C:\apache-maven-3.3.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Skype\Phone\;J:\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.civihr.test.automation.Commons skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,G:\Usha\workspace\CiviHR-Test-Automation\out\reports\junit\TEST-com.civihr.test.automation.Commons.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,G:\Usha\workspace\CiviHR-Test-Automation\out\reports\junit\TEST-com.civihr.test.automation.Commons.xml crashfile=G:\Usha\workspace\CiviHR-Test-Automation\junitvmwatcher2570545305342572220.properties propsfile=G:\Usha\workspace\CiviHR-Test-Automation\junit4460112483616330379.properties" />
+    <property name="java.class.path" value="G:\Usha\workspace\CiviHR-Test-Automation\build;G:\Usha\workspace\CiviHR-Test-Automation\libs\cglib-nodep-3.2.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\client-combined-3.0.0-beta2-nodeps.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-codec-1.10.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-exec-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\commons-logging-1.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\diffutils-1.3.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\gson-2.3.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\guava-19.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\hamcrest-core-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\hamcrest-library-1.3.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpclient-4.5.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpcore-4.4.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\httpmime-4.5.2.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jline-2.12.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jna-4.1.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\jna-platform-4.1.0.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\junit-4.12.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\netty-3.5.7.Final.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\partest-extras-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\phantomjsdriver-1.2.1.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\repl-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-compiler-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-library-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-parser-combinators_2.11-1.0.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-partest_2.11-1.0.9.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-reflect-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scala-xml_2.11-1.0.4.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\scaladoc-2.11.7.jar;G:\Usha\workspace\CiviHR-Test-Automation\libs\test-interface-1.0.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="ant.file.CiviHR-Test-Automation" value="G:\Usha\workspace\CiviHR-Test-Automation\build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="/J:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="java.io.tmpdir" value="C:\Users\ADITYA~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="G:\Usha\workspace\CiviHR-Test-Automation" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="G:\Usha\workspace\CiviHR-Test-Automation" />
+    <property name="haltonfailure" value="no" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="J:\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="out" value="out" />
+    <property name="reports.out" value="out/reports" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="G:\Usha\workspace\CiviHR-Test-Automation\src" />
+    <property name="ant.project.invoked-targets" value="run-junit" />
+  </properties>
+  <testcase classname="com.civihr.test.automation.Commons" name="initializationError" time="0.001">
+    <error message="Test class should have exactly one public zero-argument constructor" type="java.lang.Exception">java.lang.Exception: Test class should have exactly one public zero-argument constructor
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+</error>
+    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
